@@ -35,6 +35,8 @@ paddle.fluid.Program.global_block ArgSpec(args=['self'], varargs=None, keywords=
 paddle.fluid.Program.inference_optimize ArgSpec(args=['self'], varargs=None, keywords=None, defaults=None)
 paddle.fluid.Program.list_vars ArgSpec(args=['self'], varargs=None, keywords=None, defaults=None)
 paddle.fluid.Program.optimized_guard ArgSpec(args=[], varargs='args', keywords='kwds', defaults=None)
+paddle.fluid.Program.pre_optimized_guard ArgSpec(args=[], varargs='args', keywords='kwds', defaults=None)
+paddle.fluid.Program.post_optimized_guard ArgSpec(args=[], varargs='args', keywords='kwds', defaults=None)
 paddle.fluid.Program.parse_from_string ArgSpec(args=['binary_str'], varargs=None, keywords=None, defaults=None)
 paddle.fluid.Program.prune ArgSpec(args=['self', 'targets'], varargs=None, keywords=None, defaults=None)
 paddle.fluid.Program.rollback ArgSpec(args=['self'], varargs=None, keywords=None, defaults=None)
